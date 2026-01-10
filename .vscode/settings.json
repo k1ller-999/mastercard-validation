@@ -1,0 +1,57 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "editor.tabSize": 3,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActions.triggerOnFocusChange": true,
+    "editor.codeLensFontSize": 9,
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "editor.scrollBeyondLastColumn": 2,
+    "editor.smoothScrolling": true,
+    "editor.fontSize": 12,
+    "files.exclude": {
+        "": true,
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.plugin_symlinks": false,
+        "**/.svn": false,
+        "**/.symlinks": false,
+        "**/flutter/ephemeral": false,
+        "**/Flutter/ephemeral": false,
+        "**/Thumbs.db": false
+    },
+    "explorerExclude.backup": {},
+    "sqltools.connections": [
+        {
+            "namespace": "Jibril",
+            "connectionMethod": "Server and Port",
+            "showSystem": true,
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 52773,
+            "https": false,
+            "askForPassword": false,
+            "driver": "InterSystems IRIS",
+            "name": "jibril999",
+            "group": "vscode",
+            "username": "jibril_999",
+            "password": "123456"
+        }
+    ],
+    "search.useParentIgnoreFiles": true,
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "search.seedOnFocus": true,
+    "search.seedWithNearestWord": true,
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.useGlobalIgnoreFiles": true
+}
