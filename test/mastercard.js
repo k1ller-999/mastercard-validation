@@ -20,7 +20,7 @@ describe('Test mastercard-validation functions', () => {
         expiryMonth: '01',
         expiryYear: '26',
         cvv: '116',
-      };
+      };amount : 150.000.00,.$
       const validation = creditors.validateMasterCard(card);
       expect(validation.card).to.equal(card);
       expect(validation.validCardNumber).to.equal(false);
